@@ -19,13 +19,22 @@ Welcome to the **Automated Data Cleaning and Preprocessing Tool**, a powerful so
 
 ### ✅ 2. Removing Duplicate Records
 - Eliminates redundant rows that appear multiple times in the dataset.
+- ## Output:
+- ![image](https://github.com/user-attachments/assets/2ab90918-553d-48f3-8e27-7a821661a02c)
+
 
 ### ✅ 3. Handling Outliers
 - Identifies and removes extreme values using the **IQR (Interquartile Range)** method for numeric columns.
+- ## Output:
+- ![image](https://github.com/user-attachments/assets/f6014c16-b615-49aa-b4c9-e870037ee13c)
+
 
 ### ✅ 4. Inconsistent Formatting Fixes
 - Date formats like `22-04-2025`, `22.04.2025`, `22/04/2025`, or `22\04\2025` are **standardized** to `DD-MM-YYYY`.
 - Categorical column inconsistencies (e.g., `"Germanuu"` ➝ `"Germany"`) are corrected using fuzzy string matching (`fuzz` library).
+- ## Output of Date Format:
+- ![image](https://github.com/user-attachments/assets/9edebdd7-a8e7-4b57-a72b-819ed27ab4ed)
+
 
 ### ✅ 5. Data Consistency
 - Categorical strings are cleaned and matched with frequently occurring labels to fix spelling mistakes and typos.
@@ -35,6 +44,9 @@ Welcome to the **Automated Data Cleaning and Preprocessing Tool**, a powerful so
 
 ### ✅ 7. Encoding Categorical Variables
 - Converts categorical variables to numerical using **One-Hot Encoding** while avoiding dummy variable trap (`drop_first=True`).
+- ## Output:
+- ![image](https://github.com/user-attachments/assets/cc7832c1-1644-4153-9ec5-aabd80f15cc1)
+
 
 ---
 
@@ -71,3 +83,4 @@ Country, Age, Salary, Date
 France, 35, 60000, 22.04.2025
 Germanuu, , 70000, 22/04/2025
 France, 35, 60000, 22-04-2025
+
