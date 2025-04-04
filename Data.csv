@@ -1,0 +1,12 @@
+Country,Age,Salary,Purchased,Date
+France,44,72000,No,22-04-2025
+Spain,27,48000,Yes,22-04-2025
+Germany,30,54000,No,22.04.2025
+Spain,38,61000,No,22\04\2025
+Germany,40,,Yes,22-04-2025
+France,35,58000,Yes,22-04-2025
+Spain,,52000,No,22-04-2025
+France,48,79000,Yes,22-04-2025
+Germany,50,83000,No,22-04-2025
+France,37,67000,Yes,22-04-2025
+France,37,67000,Yes,22-04-2025
